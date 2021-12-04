@@ -1,0 +1,112 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.global-nav__logo {
+    color: #0a66c2;
+
+}
+
+.navbar {
+    height: 65px;
+}
+
+.nav-item>a>div i {
+    font-size: 22px;
+}
+
+.nav-item :hover {
+    border-bottom: 2.5px solid black;
+}
+.profile {
+    min-height: 260px;
+    background-color: white;
+    border-radius: 5px;
+    background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 600px 60px;
+    position: relative;
+}
+.profile__pic{
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQGolzy-TDkrpg/profile-displayphoto-shrink_200_200/0/1637761827144?e=1643241600&v=beta&t=0K_XAYyZFNaBMw9ZpdfuAz7kDZM3V7LK4wpf8ZjbJIk);
+    background-size: cover;
+    border: 2px solid white;
+}
+.profile__name> p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+
+}
+.profile--sta p,.profile__status h6{
+    font-size: 13px;
+}
+
+
+.profile__status:hover{
+    background-color: rgb(219, 217, 217);
+}
+.card-topic{
+    top: 43%;
+    left: 28.3%;
+    width: 42%;
+}
+.post{
+    font-size: 13px;
+
+}
+.post span{
+    font-size: 11px;
+}
+.alert-danger span{
+    font-size: 12px;
+}
+.alert-danger {
+    width: 70%;
+}
+.post li::before {
+    content: "•";
+    color: #62c4ed;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 3%;
+    margin-left: -1em;
+  }
+.side{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.card-footer span{
+    font-size: 12px;
+
+
+}
+.account-name{
+    font-size: 14px;
+
+}
+.account-membership{
+    font-size: 12px;
+
+}
+.account-status{
+    font-size: 10px;
+
+}
+  
+
+
+@media screen and (max-width:390px) {
+    .input-group {
+        width: 150px;
+
+    }
+
+}
+
+
